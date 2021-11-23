@@ -28,6 +28,7 @@ public:
 	bool isInSnake(const Location& loc) const;
 	bool collidingWithSelf() const;
 private:
+	// added comment
 	static constexpr Color headColour = { 255, 51, 51 };
 	static constexpr Color bodyColour = { 255, 204, 0 };
 	static constexpr int LEFT = 0;
