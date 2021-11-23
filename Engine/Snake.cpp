@@ -1,5 +1,7 @@
 #include "Snake.h"
 
+// added comment 2
+
 Snake::Segment::Segment(const Location& loc, Color c)
 	:
 	loc(loc),
